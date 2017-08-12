@@ -1,0 +1,224 @@
+body{
+	font-family: Arial, 'Georgia', Times, Times New Roman, serif;
+	width: 99%;
+	height: 100%;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+
+.wrapper{
+	min-height: 100%;
+	margin-bottom: -80px;
+}
+.container{
+	margin: 0 auto;
+	width: 960px;
+}
+
+header{
+	background-color: #ebebeb;
+	padding: 0;
+	margin-bottom: 30px;
+	clear: both;
+	overflow: auto;
+}
+
+.name{
+	color: #ebebeb;
+	padding: 20px;
+	background-color: #169e9e;
+	float: left;
+	text-align: center;
+}
+
+h1{
+	font-size: 36px;
+}
+
+nav{
+	padding: 30px 0;
+	float: right;
+}
+
+a{
+	padding: 10px;
+	text-decoration: none;
+	color: #777;
+}
+a:hover{
+	padding: 10px;
+	color: #ebebeb;
+	background-color: #169e9e;
+}
+
+section{
+	overflow: hidden;
+	float: left;
+	padding: 0 30px 30px 30px;
+	width: 590px;
+	margin-bottom: 30px;
+	background-color: #ebebeb;
+	clear: both;
+	overflow: auto;
+	border: 1px solid #777;
+}
+
+/*		THIS HEADER2 IS INSEIDE THE SECTION, WHICH TAKES CARE OF THE LAYOUT AND DESING: 			*/
+
+.header2{
+	padding: 20px  0 20px 0;
+	font-size: 34px;
+	color: #169e9e;
+	border-bottom: 2px solid #777;
+}
+
+#image{
+	padding: 20px 20px 0 0;
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+p{
+	color: #777;
+	margin-top: 20px;
+	line-height: 40px;
+}
+
+aside{
+	float: right;
+	text-align: center;
+	color: #169e9e;
+	padding: 0 30px;
+	width: 210px;
+	background-color: #ebebeb;
+	border: 1px solid #777;
+}
+
+.connect-with-me{
+	padding: 20px 20px;
+	border-bottom: 2px solid #777;
+}
+
+
+h3{
+	font-size: 22px;
+}
+
+.git, .in, .stack{
+	width: 63px;
+	height: 50px;
+	padding: 20px 10px 20px 0;
+}
+.git{
+	float: left;
+} 
+.in{
+	float: left;
+	
+}
+.stack{
+	float: right;
+	padding: 20px 0;
+}
+
+.connect-with-me-logos{
+	display: inline-block;
+	clear: both;
+	overflow: auto;
+}
+
+img{
+	padding:0;
+}
+
+footer{
+	color: #ebebeb;
+	width: 1200px;
+	padding: 20px;
+	text-align: center;
+	font-size: 10px;
+	background-color: #777;
+	width: inherit;
+	border-top: 7px solid #169e9e;
+	clear: both;
+	overflow: auto;
+}
+
+/*    
+		PORTFOLIO.HTML STYLE.CSS PARAMETERS
+*/
+#img-portfolio{
+	width: 279px;
+	height: 250px;
+}
+
+.portofolio-image{
+	margin-top: 30px;
+	text-align: center;
+	text-rendering: 20px;
+	padding: 0;
+	width: 279px;
+	height: 250px;
+	border: 1px solid #777;
+
+}
+.left{
+	float: left;
+	clear: both;
+	overflow: auto;
+}
+.right{
+	float:right;
+}
+
+#relative{
+	text-align: center;
+	position: relative;
+
+}
+
+#absolute{
+	text-align: center;
+	font-size: 24px;
+	padding: 10px 0;
+	position: absolute;
+	bottom: 20px;	
+	width: 100%;
+	color: #ebebeb;
+	background-color: #169e9e;
+}
+
+
+
+/* ********************************** */ 
+
+/*
+		CONTACT.HTML STYLE.CSS PARAMETERS
+*/
+form{
+	padding: 0;
+	font-size: 20px;
+	line-height: 50px;
+	font: bold;
+	color: #777;
+}
+
+input{
+
+	width: 100%;
+}
+textarea{
+	height: 120px;
+	width: 100%;
+}
+
+#submit{
+	color: #ebebeb;
+	font-size: 20px;
+	background-color: #169e9e;
+	border: 5px solid #169e9e;
+	width: 150px;
+}
+
+/* ********************************** */ 
