@@ -130,7 +130,9 @@
 		clear: both;
 		overflow: auto;
 	}
-
+	/*  
+			PORTFOLIO.HTML STYLE.CSS PARAMENTERS
+	*/
 	.portfolio-image{
 		margin-bottom: 20px;
 		text-align: center;
@@ -429,11 +431,12 @@
 	.submit:hover{
 		box-shadow: 1px 1px 10px #777;
 	}
-}
+	}
+	/* ********************************** */
 
-/*
+	/*
 		@MEDIA QUERY AT MAX-WIDTH OF 768PX
-*/
+	*/
 @media only screen and (max-width: 768px){
 	html, body{
 		width: 768px;
