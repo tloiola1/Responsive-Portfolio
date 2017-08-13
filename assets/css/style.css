@@ -25,9 +25,6 @@
 		float: left;
 	}
 
-	h1{     
-	} 
-
 	nav{  
 		padding: 25px 0;  
 		font-weight: 150px;    
@@ -137,17 +134,29 @@
 	.portfolio-image{
 		margin-bottom: 20px;
 		text-align: center;
-		text-rendering: 20px;
 		padding: 0;
 		width: 279px;
 		height: 250px;
 		border: 1px solid #777;
 
 	}
+	.portfolio-image img{
+		margin-left: -10px;
+ 		width: inherit;
+ 		height: inherit;
+ 		overflow: hidden;
+	}
+	.portfolio-image a{
+ 		width: inherit;
+ 		height: inherit;
+ 		overflow: hidden;
+	}
+
 	.left{
 		float: left;
 		clear: both;
 		overflow: auto;
+
 	}
 	.right{
 		float:right;
@@ -156,6 +165,7 @@
 	#relative{
 		text-align: center;
 		position: relative;
+		overflow: hidden;
 
 	}
 
@@ -355,6 +365,12 @@
 		border: 1px solid #777;
 
 	}
+
+	.portfolio-image a{
+		height: inherit;
+		width: inherit;
+	}
+
 	.left{
 		float: left;
 		clear: both;
@@ -367,7 +383,7 @@
 	#relative{
 		text-align: center;
 		position: relative;
-
+		overflow: hidden;
 	}
 
 	#absolute{
@@ -464,6 +480,12 @@
 	width: 310px;
 	height: 300px;
 	}
+	
+	.portfolio-image img{
+		height: inherit;
+		width: inherit;
+	}
+
 
 	footer{
 		width:768px;
@@ -501,13 +523,16 @@
 		width: 524px;
 		height: 450px;
 	}
+
 	nav{
 		margin-right: 119px;
 	}
+
 	aside{
 		width:590px;
 		float: left;
 	}
+
 	h3{
 		text-align: left;
 	}
@@ -515,12 +540,6 @@
 		margin-left: 22px;
 		float: left;
 	}
-
-	footer{
-		width:640px;
-	}
-
-
 
 	.right{
 	float: left;
@@ -530,6 +549,16 @@
 	width: 524px;
 	height: 500px;
 	}
+
+	.portfolio-image img{
+		height: inherit;
+		width: inherit;
+	}
+
+	footer{
+		width:640px;
+	}
+
 }
 
 
@@ -538,6 +567,7 @@
 		width: 400px;
 		margin: 0 auto;
 		overflow-x: hidden;
+
 	}
 	.content-container{
 	width: 350px;
@@ -564,7 +594,7 @@
 		padding: 5px;
 	} 
 	#image{
-		width: 280px;
+		width: 284px;
 		height: 250px;
 	}
 	aside{
@@ -579,21 +609,23 @@
 		float: left;
 	}
 
-	footer{
-		width:400px;
-	}
-
-
-
 	.right{
 	float: left;
 	}
 	
 	.portfolio-image{
-	width: 524px;
-	height: 500px;
+	width: 284px;
+	height: 250px;
 	}
 
+	.portfolio-image img{
+		height: inherit;
+		width: inherit;
+	}
+
+	footer{
+		width:640px;
+	}
 
 }
 
