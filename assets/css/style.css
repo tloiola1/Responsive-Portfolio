@@ -336,6 +336,7 @@
 	}
 
 	.freecodecamp{
+		margin-top: -18px;
 		float: right;
 	}
 
@@ -475,6 +476,7 @@
 		text-align: left;
 	}
 	.freecodecamp{
+		margin-top: 10px;
 		margin-left: 22px;
 		float: left;
 	}
@@ -627,7 +629,7 @@
 	}
 
 	footer{
-		width:640px;
+		width:400px;
 	}
 
 }
