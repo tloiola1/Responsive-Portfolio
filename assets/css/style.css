@@ -537,7 +537,7 @@
 	html, body{
 		width: 400px;
 		margin: 0 auto;
-		overflow-x: hidden;
+		overflow: hidden;
 	}
 	.content-container{
 	width: 350px;
